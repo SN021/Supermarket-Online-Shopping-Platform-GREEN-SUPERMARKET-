@@ -141,7 +141,7 @@ body{
     right: 2rem;
     transition: .4s linear;
 }
-.header .login-form h3 {
+.header .login-form h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
@@ -156,12 +156,12 @@ body{
     color: var(--black);
     text-transform: none;
 }
-.header .login-form p {
+.header .login-form h3 {
     font-size: 1.2rem;
     padding: .3rem 100;
     color: var(--light-color);
 }
-.header .login-form p a {
+.header .login-form h3 a {
     color: var(--black);
     text-decoration: underline;
 }

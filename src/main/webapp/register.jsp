@@ -5,12 +5,12 @@
   </head>
   <body>
     <div class="loginbox">
-      <h1>Login Here</h1>
+      <h1>Register Here</h1>
       <form method="post" action="signup">
         <p>Username</p>
-        <input type="text" name="username" id="username" placeholder="Enter username" require />
+        <input type="text" name="username" id="username" placeholder="Enter username" required />
         <p>Password</p>
-        <input type="password" name="password" id="password" placeholder="Enter Password" require />
+        <input type="password" name="password" id="password" placeholder="Enter Password" required />
             <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>

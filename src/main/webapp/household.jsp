@@ -11,12 +11,10 @@
 </head>
 <body class="">
     <header class="header">
-        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> GreenSup </a>
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> GreenSupermarket </a>
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#login/signin">Login/Sign In</a>
-            <a href="#aboutus">About Us</a>
-            <a href="#contactus">Contact Us</a>
+            <a href="home.jsp">Home</a>
+            <a href="login.jsp">Login</a>
         </nav>
     
         <div class="icons">
@@ -32,12 +30,9 @@
         </form>
     
         <form action="" class="login-form">
-            <h3>Login Now</h3>
-            <input type="email" placeholder="Enter your email" class="box">
-            <input type="password" placeholder="Enter your password" class="box">
-            <p>Forget your password <a href="#">Click here</a></p>
-            <p>Don't have an account <a href="#">Create a new account</a></p>
-            <input type="submit" value="Login" class="btn">
+            <h3>User Profile</h3>
+            <h1><a href="userprofile.jsp">User Details</a></h1>
+            <h1> <a href="#"></a>Admin Panel</h1>
         </form>
     </header>
     <div class="container">
@@ -72,5 +67,39 @@
     }
 
     </script>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>GreenSupermarket <i class="fas fa-shopping-basket"></i></h3>
+                <p>Discovering hidden treasures in every aisle</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info </h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+94 112 799 555</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+94 112 799 444</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>greensup234@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>23/A,Main Street,Colombo.</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links </h3>
+                <a href="home.jsp" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="login.jsp" class="links"><i class="fas fa-arrow-right"></i>Login</a>
+
+            </div>
+            <div class="box">
+                <h3>NewsLetter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="image/visa.jpg" class="payment-img" alt="visa">
+            </div>
+        </div>
+        <div class="credit">created by,<span> Group 22</span> |all right reserved|</div>
+    </section>
 </body>
 </html>

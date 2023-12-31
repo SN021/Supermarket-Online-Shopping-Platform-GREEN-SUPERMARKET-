@@ -176,12 +176,12 @@ section{
     color: var(--black);
     text-transform: none;  
 }
-.header .login-form p{
-    font-size: 1.2rem;
+.header .login-form h1{
+    font-size: 1.1rem;
     padding: .3rem 100;
     color: var(--light-color);
 }
-.header .login-form p a{
+.header .login-form h1 a{
     color: var(--black);
     text-decoration: underline;
 }
