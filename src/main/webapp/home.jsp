@@ -31,7 +31,7 @@
         <form action="" class="login-form">
             <h3>User Profile</h3>
             <h1><a href="userprofile.jsp">User Details</a></h1>
-            <h1> <a href="#"></a>Admin Panel</h1>
+            <h1><a href="admin.jsp">Admin Panel</a></h1>
         </form>
     </header>
 
